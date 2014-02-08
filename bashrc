@@ -25,7 +25,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
-alias please="sudo  !!"
 
 #if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then
 ##startx
