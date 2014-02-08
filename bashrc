@@ -20,6 +20,12 @@ alias ls='ls --color=auto'
 alias diff='colordiff'
 alias grep='grep -i --color=auto'
 alias mountexternal='mount ~/wd_external'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias please="sudo  !!"
 
 #if [ -z "$DISPLAY" ] && [ $(tty) == /dev/tty1 ]; then
 ##startx
