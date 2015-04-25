@@ -18,12 +18,12 @@ download_rate = 0
 upload_rate = 0
 
 # Default directory to save the downloaded torrents.
-#directory = /home/thall/wd_external
+directory = /home/thall/external
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
 # relative path?
-#session = /home/thall/.rtorrent/session
+session = /home/thall/.rtorrent/session
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
@@ -43,7 +43,7 @@ schedule = watch_directory,5,5,load_start=/home/thall/.rtorrent/watch/*.torrent
 #bind = rakshasa.no
 
 # Port range to use for listening.
-#port_range = 6890-6999
+port_range = 6881-6881
 
 # Start opening ports at a random position within the port range.
 #port_random = no

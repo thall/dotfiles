@@ -1,8 +1,12 @@
 # Write your default config options here!
 #vo=vdpau,
 #vc=ffh264vdpau,ffmpeg12vdpau,ffodivxvdpau,ffwmv3vdpau,ffvc1vdpau,
-vo=vaapi,xv,
+#vo=vaapi,xv,
 #va=vaapi
-ao=sdl,alsa,
+#ao=sdl,alsa,
+#
+vo=vdpau,
+vc=ffh264vdpau,ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,
+ao=pulse
 cache=16384
 framedrop="1"
