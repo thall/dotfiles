@@ -1,1 +1,1 @@
-feh  --bg-scale '/home/thall/wallpapers/0Cljj.jpg' 
+feh --bg-scale "${HOME}/arch_bg.jpg"
