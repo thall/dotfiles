@@ -10,5 +10,9 @@ fi
 xsetroot -cursor_name left_ptr
 setxkbmap -layout se
 xrdb -merge ~/.Xresources
-sh ~/.fehbg &
+bash ~/.fehbg &
+synclient TapButton1=0
+synclient TapButton2=0
+synclient TapButton3=0
+pulseaudio --start
 exec xmonad
