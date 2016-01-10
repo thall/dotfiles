@@ -10,3 +10,4 @@ vc=ffh264vdpau,ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,
 ao=pulse
 cache=16384
 framedrop="1"
+utf8=true
