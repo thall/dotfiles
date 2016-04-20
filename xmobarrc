@@ -1,5 +1,5 @@
 Config { 
-    font = "xft:inconsolata:size=10:antialias=true"
+    font = "xft:inconsolata:size=12:antialias=true"
   , bgColor = "#002b36"
   , fgColor = "#657b83"
   , position = Top
@@ -12,7 +12,7 @@ Config {
                       , "--high","red"
                       ] 10
 
-    , Run MultiCpu    [ "-t", "Cpu: <total0>% <total1>%"
+    , Run MultiCpu    [ "-t", "Cpu: <autototal>%"
                       , "-L", "5"
                       ,"-H", "50"
                       ,"-l", "green"
