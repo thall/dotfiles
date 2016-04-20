@@ -1,0 +1,5 @@
+[options]
+font = Inconsolata 11
+
+[colors]
+background = rgba(10, 10, 10, 0.70)
